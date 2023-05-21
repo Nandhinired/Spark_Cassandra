@@ -15,20 +15,27 @@ To run the project, follow these steps:
  1.Clone the repository to your local machine.   
  2.Set up a Cassandra cluster and create a keyspace and table.Here's an example of how to create a simple table in Cassandra:
 
-`CREATE KEYSPACE IF NOT EXISTS test
-WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'};
+`CREATE KEYSPACE IF NOT EXISTS nankyspace
+WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'};`
 
-CREATE TABLE IF NOT EXISTS test.users (
-id int PRIMARY KEY,
-name text,
-age int
+`CREATE TABLE happiness_index(
+Overall_rank int PRIMARY KEY,
+Country_or_region text,
+Score float,
+GDP_per_capita float,
+Social_support float,,
+Healthy_life_expectancy float,
+Freedom_to_make_life_choices float,
+Generosity float,
+Perceptions_of_corruption float
 );`
 
  3.Make sure the cluster is reachable from the machine running the Spark application.
  
-
+![img_1.png](img_1.png)
+![img.png](img.png)
 ## Code Structure
-src/main/scala/com/example/SparkCassandraIntegration.scala: The main Spark application that integrates with Cassandra and performs some data manipulation.
+src/main/scala/com/example/Spark_Cassandra_Integration.scala: The main Spark application that integrates with Cassandra and performs some data manipulation.
 
 
 ## Contributing
