@@ -37,9 +37,19 @@ Perceptions_of_corruption float
 );`
 
  3.Make sure the cluster is reachable from the machine running the Spark application.
- 
-![img_1.png](img_1.png)
-![img.png](img.png)
+
+4. Reading from Cassandra
+
+<p align="center">
+  <img src="Images/Read.png" width="650" title="Spark-Cassandra Integration">
+</p> 
+
+5. Writing to Cassandra
+<p align="center">
+  <img src="Images/Write.png" width="550" title="Spark-Cassandra Integration">
+</p> 
+
+
 ## Code Structure
 src/main/scala/com/example/Spark_Cassandra_Integration.scala: The main Spark application that integrates with Cassandra and performs some data manipulation.
 
