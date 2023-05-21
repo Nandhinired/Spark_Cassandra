@@ -1,6 +1,12 @@
 
 # Spark and Cassandra Integration in Scala
 
+
+<p align="center">
+  <img src="https://github.com/Nandhinired/Spark_Cassandra/assets/69593809/2777d5f6-5175-471c-b70c-b0697810faae" width="550" title="Spark-Cassandra Integration">
+</p> 
+
+
 This project demonstrates how to integrate Apache Spark and Apache Cassandra using Scala programming language.
 
 ## Dependencies
