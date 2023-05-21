@@ -41,12 +41,12 @@ Perceptions_of_corruption float
 4. Reading from Cassandra
 
 <p align="center">
-  <img src="Images/Read.png" width="650" title="Spark-Cassandra Integration">
+  <img src="Images/Read.png" width="750" title="Spark-Cassandra Integration">
 </p> 
 
 5. Writing to Cassandra
 <p align="center">
-  <img src="Images/Write.png" width="550" title="Spark-Cassandra Integration">
+  <img src="Images/Write.png" width="950" title="Spark-Cassandra Integration">
 </p> 
 
 
